@@ -1,0 +1,141 @@
+_program
+  _method
+    main
+    int
+    _attr
+      x
+      int
+      _assign
+        x
+        _int
+          0
+        : int
+      : int
+    _attr
+      y
+      int
+      _assign
+        y
+        _int
+          1
+        : int
+      : int
+    _cond
+      _eq
+        _object
+          x
+        : int
+        _object
+          y
+        : int
+      : bool
+      _true
+        _assign
+          x
+          _int
+            10
+          : int
+        : int
+      _false
+        _cond
+          _dist
+            _object
+              x
+            : int
+            _object
+              y
+            : int
+          : bool
+          _true
+            _assign
+              x
+              _int
+                20
+              : int
+            : int
+          _false
+            _cond
+              _gt
+                _object
+                  x
+                : int
+                _object
+                  y
+                : int
+              : bool
+              _true
+                _assign
+                  x
+                  _int
+                    30
+                  : int
+                : int
+              _false
+                _cond
+                  _lt
+                    _object
+                      x
+                    : int
+                    _object
+                      y
+                    : int
+                  : bool
+                  _true
+                    _assign
+                      x
+                      _int
+                        40
+                      : int
+                    : int
+                  _false
+                    _cond
+                      _ge
+                        _object
+                          x
+                        : int
+                        _object
+                          y
+                        : int
+                      : bool
+                      _true
+                        _assign
+                          x
+                          _int
+                            50
+                          : int
+                        : int
+                      _false
+                        _cond
+                          _le
+                            _object
+                              x
+                            : int
+                            _object
+                              y
+                            : int
+                          : bool
+                          _true
+                            _assign
+                              x
+                              _int
+                                60
+                              : int
+                            : int
+                          _false
+                            _assign
+                              x
+                              _int
+                                70
+                              : int
+                            : int
+                        : void
+                    : void
+                : void
+            : void
+        : void
+    : void
+    _return
+      _object
+        x
+      : int
+    : int

@@ -1,0 +1,10 @@
+x
+// ONE LINE COMMENT
+3
+y 4
+/* j
+MULTILINE
+COMMENT
+*/
+-10 // Hello
+FIN

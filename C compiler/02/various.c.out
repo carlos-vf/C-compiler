@@ -1,0 +1,54 @@
+_program
+  _method
+    main
+    void
+    _attr
+      z
+      int
+      _assign
+        z
+        _mod
+          _int
+            10
+          : _no_type
+          _int
+            2
+          : _no_type
+        : _no_type
+      : _no_type
+    _cond
+      _not
+        _int
+          1
+        : _no_type
+      : _no_type
+      _true
+        _assign
+          z
+          _int
+            0
+          : _no_type
+        : _no_type
+      _false
+    : _no_type
+    _assign
+      z
+      _mul
+        _mul
+          _int
+            2
+          : _no_type
+          _sub
+            _int
+              100
+            : _no_type
+            _int
+              1
+            : _no_type
+          : _no_type
+        : _no_type
+        _int
+          5
+        : _no_type
+      : _no_type
+    : _no_type

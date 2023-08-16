@@ -1,0 +1,27 @@
+_program
+  _method
+    main
+    int
+    _attr
+      x
+      int
+      _assign
+        x
+        _int
+          5
+        : _no_type
+      : _no_type
+    _attr
+      y
+      int
+      _assign
+        y
+        _int
+          2
+        : _no_type
+      : _no_type
+    _return
+      _object
+        x
+      : _no_type
+    : _no_type

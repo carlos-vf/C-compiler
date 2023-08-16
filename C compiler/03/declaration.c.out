@@ -1,0 +1,27 @@
+#4
+_program
+  #1
+  _attr
+    x
+    int
+    #1
+    _no_expr
+    : _no_type
+  _attr
+    y
+    float
+    #2
+    _no_expr
+    : _no_type
+  _attr
+    z
+    char
+    #3
+    _no_expr
+    : _no_type
+  _method
+    main
+    void
+    #4
+    _no_expr
+    : void

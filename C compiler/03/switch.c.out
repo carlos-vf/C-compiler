@@ -1,0 +1,61 @@
+_program
+  _method
+    main
+    void
+    _attr
+      x
+      int
+      _assign
+        x
+        _int
+          1
+        : int
+      : int
+    _attr
+      y
+      int
+      _assign
+        y
+        _int
+          8
+        : int
+      : int
+    _typcase
+      _object
+        x
+      : int
+      _branch
+        _assign
+          x
+          _int
+            1
+          : int
+        : int
+        _assign
+          y
+          _int
+            2
+          : int
+        : int
+        _break
+        : void
+      : void
+      _branch
+        _assign
+          y
+          _int
+            3
+          : int
+        : int
+        _break
+        : void
+      : void
+      _branch
+        _assign
+          y
+          _int
+            78
+          : int
+        : int
+      : void
+    : void

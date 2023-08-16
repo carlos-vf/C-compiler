@@ -1,0 +1,63 @@
+_program
+  _method
+    main
+    void
+    _attr
+      x
+      int
+      _assign
+        x
+        _int
+          0
+        : _no_type
+      : _no_type
+    _attr
+      pi
+      float
+      _assign
+        pi
+        _float
+          3.14159265359
+        : _no_type
+      : _no_type
+    _for_loop
+      _attr
+        i
+        int
+        _assign
+          i
+          _int
+            0
+          : _no_type
+        : _no_type
+      _lt
+        _object
+          i
+        : _no_type
+        _int
+          10
+        : _no_type
+      : _no_type
+      _assign
+        i
+        _plus
+          _object
+            i
+          : _no_type
+          _int
+            1
+          : _no_type
+        : _no_type
+      : _no_type
+        _assign
+          pi
+          _plus
+            _object
+              pi
+            : _no_type
+            _int
+              1
+            : _no_type
+          : _no_type
+        : _no_type
+    : _no_type

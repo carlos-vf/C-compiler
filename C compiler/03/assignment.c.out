@@ -1,0 +1,35 @@
+_program
+  _method
+    main
+    void
+    _attr
+      x
+      int
+      _no_expr
+      : _no_type
+    _attr
+      y
+      float
+      _no_expr
+      : _no_type
+    _assign
+      x
+      _int
+        5
+      : int
+    : int
+    _assign
+      y
+      _float
+        6.5
+      : float
+    : float
+    _attr
+      z
+      char
+      _assign
+        z
+        _char
+          'h'
+        : char
+      : char

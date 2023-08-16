@@ -1,0 +1,59 @@
+_program
+  _method
+    suma
+    _formal
+      a
+      int
+    _formal
+      b
+      int
+    int
+    _return
+      _plus
+        _object
+          a
+        : int
+        _object
+          b
+        : int
+      : int
+    : int
+  _method
+    randomChar
+    char
+    _return
+      _char
+        'g'
+      : char
+    : char
+  _method
+    main
+    void
+    _attr
+      x
+      int
+      _assign
+        x
+        _dispatch
+          suma
+          (
+          _int
+            3
+          : int
+          _int
+            5
+          : int
+          )
+        : int
+      : int
+    _attr
+      p
+      char
+      _assign
+        p
+        _dispatch
+          randomChar
+          (
+          )
+        : char
+      : char

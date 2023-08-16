@@ -1,0 +1,145 @@
+_program
+  _method
+    main
+    void
+    _attr
+      x
+      float
+      _assign
+        x
+        _float
+          5.5
+        : float
+      : float
+    _attr
+      y
+      float
+      _assign
+        y
+        _float
+          0.5
+        : float
+      : float
+    _attr
+      a
+      float
+      _no_expr
+      : _no_type
+    _attr
+      z
+      int
+      _assign
+        z
+        _int
+          3
+        : int
+      : int
+    _assign
+      a
+      _plus
+        _object
+          x
+        : float
+        _object
+          y
+        : float
+      : float
+    : float
+    _assign
+      a
+      _sub
+        _object
+          x
+        : float
+        _object
+          y
+        : float
+      : float
+    : float
+    _assign
+      a
+      _mul
+        _object
+          x
+        : float
+        _object
+          y
+        : float
+      : float
+    : float
+    _assign
+      a
+      _divide
+        _object
+          x
+        : float
+        _object
+          y
+        : float
+      : float
+    : float
+    _assign
+      a
+      _plus
+        _plus
+          _plus
+            _object
+              x
+            : float
+            _object
+              y
+            : float
+          : float
+          _float
+            1.0
+          : float
+        : float
+        _float
+          2.0
+        : float
+      : float
+    : float
+    _assign
+      z
+      _plus
+        _object
+          z
+        : int
+        _int
+          5
+        : int
+      : int
+    : int
+    _assign
+      z
+      _sub
+        _object
+          z
+        : int
+        _int
+          10
+        : int
+      : int
+    : int
+    _assign
+      z
+      _plus
+        _object
+          z
+        : int
+        _int
+          1
+        : int
+      : int
+    : int
+    _assign
+      z
+      _sub
+        _object
+          z
+        : int
+        _int
+          1
+        : int
+      : int
+    : int
